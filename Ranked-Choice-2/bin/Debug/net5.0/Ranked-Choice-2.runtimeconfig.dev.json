@@ -1,0 +1,8 @@
+{
+  "runtimeOptions": {
+    "additionalProbingPaths": [
+      "/Users/animeshs/.dotnet/store/|arch|/|tfm|",
+      "/Users/animeshs/.nuget/packages"
+    ]
+  }
+}

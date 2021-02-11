@@ -1,0 +1,15 @@
+/Users/animeshs/Projects/Ranked-Choice-2/Ranked-Choice-2/bin/Debug/net5.0/Ranked-Choice-2.deps.json
+/Users/animeshs/Projects/Ranked-Choice-2/Ranked-Choice-2/bin/Debug/net5.0/Ranked-Choice-2.runtimeconfig.json
+/Users/animeshs/Projects/Ranked-Choice-2/Ranked-Choice-2/bin/Debug/net5.0/Ranked-Choice-2.runtimeconfig.dev.json
+/Users/animeshs/Projects/Ranked-Choice-2/Ranked-Choice-2/bin/Debug/net5.0/Ranked-Choice-2.dll
+/Users/animeshs/Projects/Ranked-Choice-2/Ranked-Choice-2/bin/Debug/net5.0/ref/Ranked-Choice-2.dll
+/Users/animeshs/Projects/Ranked-Choice-2/Ranked-Choice-2/bin/Debug/net5.0/Ranked-Choice-2.pdb
+/Users/animeshs/Projects/Ranked-Choice-2/Ranked-Choice-2/obj/Debug/net5.0/Ranked-Choice-2.csprojAssemblyReference.cache
+/Users/animeshs/Projects/Ranked-Choice-2/Ranked-Choice-2/obj/Debug/net5.0/Ranked-Choice-2.GeneratedMSBuildEditorConfig.editorconfig
+/Users/animeshs/Projects/Ranked-Choice-2/Ranked-Choice-2/obj/Debug/net5.0/Ranked-Choice-2.AssemblyInfoInputs.cache
+/Users/animeshs/Projects/Ranked-Choice-2/Ranked-Choice-2/obj/Debug/net5.0/Ranked-Choice-2.AssemblyInfo.cs
+/Users/animeshs/Projects/Ranked-Choice-2/Ranked-Choice-2/obj/Debug/net5.0/Ranked-Choice-2.csproj.CoreCompileInputs.cache
+/Users/animeshs/Projects/Ranked-Choice-2/Ranked-Choice-2/obj/Debug/net5.0/Ranked-Choice-2.dll
+/Users/animeshs/Projects/Ranked-Choice-2/Ranked-Choice-2/obj/Debug/net5.0/ref/Ranked-Choice-2.dll
+/Users/animeshs/Projects/Ranked-Choice-2/Ranked-Choice-2/obj/Debug/net5.0/Ranked-Choice-2.pdb
+/Users/animeshs/Projects/Ranked-Choice-2/Ranked-Choice-2/obj/Debug/net5.0/Ranked-Choice-2.genruntimeconfig.cache
