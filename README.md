@@ -1,9 +1,9 @@
 How to run the program
 
-1. Unzip the zip file
-2. Install visual studio (not visual studio code)
-3. click on the .sln file
-4. click on Run in visual studio
+1. Install visual studio (not visual studio code)
+2. Download the .sln file and the project folder
+3. Double click on the .sln file
+3. click on Run in visual studio
 
 Sample<br />
 Enter Number of Candidates<br />
