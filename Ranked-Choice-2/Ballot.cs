@@ -23,15 +23,18 @@ public class Ballot
 	public int getCandidateForBallot(ICollection<int> activeCandidates)
 	{
 		int candidate = -1;
-
-		List<int> activeCandidatesOnThisBallot = new List<int>(ballotArr);
-		activeCandidatesOnThisBallot.RetainAll(activeCandidates); // should preserve order
-																  // If not all candidates on this Ballot have been eliminated
-		if (activeCandidatesOnThisBallot.Count > 0)
+		if (ballotArr.Count > 0)
 		{
-			// Return the highest-ranked candidate
-			candidate = activeCandidatesOnThisBallot[0];
+			ballotArr.RemoveAt(0);
 		}
+
+		int top = ballotArr.Count > 0 ? ballotArr[0] : -1;
+
+		if (activeCandidates.Contains(top))
+		{
+			candidate = top;
+		}
+
 		// Return result
 		return candidate;
 	}

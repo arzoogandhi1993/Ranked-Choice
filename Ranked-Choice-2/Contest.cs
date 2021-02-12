@@ -40,19 +40,16 @@ public class Contest
 			piles[candidate] = pile;
 		}
 
-		// Default pile whose ballots will be distributed amongst the candidates.
-		Pile initialPile = new Pile(0);
-
 		foreach (IList<int> rawBallot in rawBallots)
 		{
 			// Add all the initial ballots to initial pile
 			Ballot ballot = new Ballot(rawBallot);
-			initialPile.AddBallot(ballot);
+			int candidate = rawBallot[0];
+			piles[candidate].AddBallot(ballot);	
 		}
-
-		// Distribute the initial ballots to its own pile
-		redistributeBallots(initialPile);
 	}
+
+	
 
 	public void RunContest()
 	{
@@ -107,6 +104,7 @@ public class Contest
 	{
 		int candidate;
 		Pile votePile;
+		List<Ballot> ballotsToRemove = new List<Ballot>();
 		// For each Ballot in the Pile
 		foreach (Ballot ballot in pile.Ballots)
 		{
@@ -119,7 +117,13 @@ public class Contest
 				votePile = piles[candidate];
 				// Add this Ballot to the Pile
 				votePile.AddBallot(ballot);
+				ballotsToRemove.Add(ballot);
 			}
+		}
+
+		foreach (Ballot ballot in ballotsToRemove)
+		{
+			pile.Ballots.Remove(ballot);
 		}
 	}
 
